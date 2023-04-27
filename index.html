@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="Age Calculator\age-calculator-app-main\Styles\style.css">
+  <script src="Age Calculator\age-calculator-app-main\Styles\calc.js"></script>
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+
+<body>
+
+  <main class="calculator">
+
+    <header>
+
+      <section class="day">
+
+        <label data-label1 >DAY</label>
+        <input type="number" data-days placeholder="DD">
+        <p data-daysError></p>
+      </section>
+
+      <section class="month">
+
+        <label data-label2 >MONTH</label>
+        <input type="number" data-months placeholder="MM">
+        <p data-monthsError></p>
+
+      </section>
+
+      <section class="year">
+
+        <label data-label3 >YEAR</label>
+        <input type="number" data-years placeholder="YY">
+        <p data-yearsError></p>
+
+
+      </section>
+
+    </header>
+
+    <section class="line">
+
+      <hr>
+      <button data-calculate class="calc">
+        <img src="assets/images/icon-arrow.svg" alt="Arrow Button">
+      </button>
+
+    </section>
+
+    <section class="main">
+
+      <p><span data-birthYear>--</span>years</p>
+      <p><span data-birthMonth>--</span>months</p>
+      <p><span data-birthdate>--</span>days</p>
+
+    </section>
+
+  </main>
+
+
+</body>
+
+</html>
